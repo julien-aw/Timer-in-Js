@@ -45,10 +45,12 @@ h1{
 	width: 80px;
 	height: 30px;
 	margin-right: 5px;
+	transition: border-bottom .15s;
 
 }
 .btn:hover{
 	cursor: pointer;
+	transition-timing-function: ease-in;
 	border-bottom: 3px solid red;
 }
 .content p{

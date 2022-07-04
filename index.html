@@ -8,23 +8,23 @@
 	<title>Js Chrono</title>
 </head>
 <body>
-	
 	<div class="container">
 		<h1>Timer</h1>
 		
 		<div class="content">
-			<div class="icon"><i class="fas fa-hourglass-start fa-5x"></i></div>
-			<p class="chrono">00 : 00 : 00</p>
-			<div class="btn start">
+			<div id="icon"><i class="fas fa-hourglass-start fa-5x"></i></div>
+			<p class="chrono"><span>00</span>:<span>00</span>:<span>00</span></p>
+			<div class="btn start" id="btstart">
 				<p>Start</p>
 			</div>
-			<div class="btn stop">
-				<p>Reset</p>
+			<div class="btn pause" id="btpause">
+				<p>Pause</p>
 			</div>
-			<div class="btn reset">
-				<p>Stop</p>
+			<div class="btn reset" id="btreset">
+				<p>Resete</p>
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript" src="index.js"></script>
 </body>
 </html>
